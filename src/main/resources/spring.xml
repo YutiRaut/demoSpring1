@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    this is used when we used xml config-->
+<!--    <bean id="library" class="springDemo.Book"></bean>-->
+
+<!--    this is used when we used annotation simple annotation not java annotation-->
+
+<!--<context:component-scan base-package="springDemo"></context:component-scan>-->
+
+
+
+<!--    <bean id="genre" class="springDemo.Genre">-->
+<!--        <property name="comedy" value="Entertainment"></property>-->
+<!--&lt;!&ndash;this is for how can we add property tag in bean&ndash;&gt;-->
+<!--    </bean>-->
+
+
+<!--    <bean id="book" class="springDemo.Book">-->
+<!--        &lt;!&ndash;this is for how can we add value using constructor&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="genre" class="springDemo.Book"/>-->
+
+
+    <bean id="book" class="springDemo.Book"></bean>
+</beans>
