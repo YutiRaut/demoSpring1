@@ -27,4 +27,20 @@
 
 
     <bean id="book" class="springDemo.Book"></bean>
+
+<!--&lt;!&ndash;    SetterInjectionExample bean&ndash;&gt;-->
+<!--    <bean class="dependencyInjection.Student" name="student">-->
+<!--        <property name="studentId" value="12"></property>-->
+<!--        <property name="studentName" value="rima"></property>-->
+<!--        <property name="studentAddress" value="hostel"></property>-->
+<!--    </bean>-->
+
+<!--    Constructor based example bean-->
+<bean class="dependencyInjection.Person" name="person">
+    <constructor-arg value="RAM"></constructor-arg>
+    <constructor-arg value="12"></constructor-arg>
+
+</bean>
+
+
 </beans>
