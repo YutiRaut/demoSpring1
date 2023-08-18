@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class UserMain{
 
     public static void main(String[] args) {
-        // Create an application context using the AppConfig class
+        // Create an application context using the LazyApp class
         ApplicationContext context = new AnnotationConfigApplicationContext(UserConfig.class);
 
         UserService userService = context.getBean(UserService.class);
